@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="17" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="58745" started-at="2018-04-07T12:45:42Z" finished-at="2018-04-07T12:46:41Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="58745" started-at="2018-04-07T12:45:42Z" finished-at="2018-04-07T12:46:41Z">
+      <class name="com.test.TestCase">
+        <test-method status="PASS" signature="A_generatingAccessToken()" name="A_generatingAccessToken" duration-ms="10906" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:45:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A_generatingAccessToken -->
+        <test-method status="PASS" signature="B_signup()" name="B_signup" duration-ms="11756" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:45:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B_signup -->
+        <test-method status="PASS" signature="E_company_details()" name="E_company_details" duration-ms="25723" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- E_company_details -->
+        <test-method status="PASS" signature="D_payment()" name="D_payment" duration-ms="24489" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- D_payment -->
+        <test-method status="PASS" signature="C_otpverify()" name="C_otpverify" duration-ms="13455" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:45:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C_otpverify -->
+        <test-method status="PASS" signature="H_clinicSchedule()" name="H_clinicSchedule" duration-ms="28951" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- H_clinicSchedule -->
+        <test-method status="PASS" signature="F_addClinic()" name="F_addClinic" duration-ms="26766" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- F_addClinic -->
+        <test-method status="PASS" signature="G_clinicSpeciality()" name="G_clinicSpeciality" duration-ms="27542" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- G_clinicSpeciality -->
+        <test-method status="PASS" signature="I_addUser()" name="I_addUser" duration-ms="30352" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- I_addUser -->
+        <test-method status="PASS" signature="K_addInventory()" name="K_addInventory" duration-ms="31966" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- K_addInventory -->
+        <test-method status="PASS" signature="M_addOwner()" name="M_addOwner" duration-ms="34680" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M_addOwner -->
+        <test-method status="PASS" signature="J_addstaff()" name="J_addstaff" duration-ms="31145" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- J_addstaff -->
+        <test-method status="PASS" signature="L_addServiceCode()" name="L_addServiceCode" duration-ms="33636" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- L_addServiceCode -->
+        <test-method status="PASS" signature="P_addEvent()" name="P_addEvent" duration-ms="42326" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- P_addEvent -->
+        <test-method status="PASS" signature="N_addPet()" name="N_addPet" duration-ms="36892" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- N_addPet -->
+        <test-method status="FAIL" signature="Q_getEvent()" name="Q_getEvent" duration-ms="46693" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:32Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <422>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <422>.
+
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+at com.methods.ApiMethods.addAppointment(ApiMethods.java:486)
+at com.methods.ApiMethods.getEvent(ApiMethods.java:521)
+at com.test.TestCase.Q_getEvent(TestCase.java:107)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Q_getEvent -->
+        <test-method status="PASS" signature="O_addAppointment()" name="O_addAppointment" duration-ms="41513" started-at="2018-04-07T12:45:45Z" finished-at="2018-04-07T12:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- O_addAppointment -->
+      </class> <!-- com.test.TestCase -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

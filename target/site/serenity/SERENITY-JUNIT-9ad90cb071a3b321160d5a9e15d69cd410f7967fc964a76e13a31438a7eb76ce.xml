@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="5" name="com.test.TestCase" skipped="0" tests="21" time="63.15" timestamp="2020-02-25T12:08:45.100+05:30[Asia/Kolkata]"><testcase classname="com.test.TestCase" name="A generating access token"/><testcase classname="com.test.TestCase" name="B signup"/><testcase classname="com.test.TestCase" name="C1 otp verify"/><testcase classname="com.test.TestCase" name="D1 payment"/><testcase classname="com.test.TestCase" name="D2 otp phone verify"/><testcase classname="com.test.TestCase" name="D3 login access"/><testcase classname="com.test.TestCase" name="E1 company details"/><testcase classname="com.test.TestCase" name="E2 add company"/><testcase classname="com.test.TestCase" name="E3 company details1"/><testcase classname="com.test.TestCase" name="F add clinic"/><testcase classname="com.test.TestCase" name="G clinic speciality"/><testcase classname="com.test.TestCase" name="H clinic schedule"/><testcase classname="com.test.TestCase" name="I add user"/><testcase classname="com.test.TestCase" name="J addstaff"/><testcase classname="com.test.TestCase" name="K add inventory"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addInventory(ApiMethods.java:482)
+com.test.TestCase.K_addInventory(TestCase.java:95)
+</system-err></testcase><testcase classname="com.test.TestCase" name="L add service code"><error message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</error><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addInventory(ApiMethods.java:482)
+com.methods.ApiMethods.addServiceCode(ApiMethods.java:500)
+com.test.TestCase.L_addServiceCode(TestCase.java:100)
+</system-err></testcase><testcase classname="com.test.TestCase" name="M add owner"/><testcase classname="com.test.TestCase" name="N add pet"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;503&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addPet(ApiMethods.java:598)
+com.test.TestCase.N_addPet(TestCase.java:110)
+</system-err></testcase><testcase classname="com.test.TestCase" name="O add appointment"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;503&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addPet(ApiMethods.java:598)
+com.methods.ApiMethods.addAppointment(ApiMethods.java:619)
+com.test.TestCase.O_addAppointment(TestCase.java:115)
+</system-err></testcase><testcase classname="com.test.TestCase" name="P add event"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;503&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addEvent(ApiMethods.java:653)
+com.test.TestCase.P_addEvent(TestCase.java:120)
+</system-err></testcase><testcase classname="com.test.TestCase" name="Q get event"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;503&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;503&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addEvent(ApiMethods.java:653)
+com.methods.ApiMethods.getEvent(ApiMethods.java:665)
+com.test.TestCase.Q_getEvent(TestCase.java:125)
+</system-err></testcase></testsuite>

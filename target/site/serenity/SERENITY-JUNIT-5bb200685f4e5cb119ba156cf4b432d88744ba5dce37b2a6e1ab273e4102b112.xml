@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="10" failures="4" name="com.test.TestCase" skipped="0" tests="15" time="3.72" timestamp="2020-02-07T16:20:13.625+05:30[Asia/Kolkata]"><testcase classname="com.test.TestCase" name="C otpverify"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.otpverify(ApiMethods.java:101)
+com.test.TestCase.C_otpverify(TestCase.java:31)
+</system-err></testcase><testcase classname="com.test.TestCase" name="D payment"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.payment(ApiMethods.java:141)
+com.test.TestCase.D_payment(TestCase.java:41)
+</system-err></testcase><testcase classname="com.test.TestCase" name="E company details"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.company_details(ApiMethods.java:165)
+com.test.TestCase.E_company_details(TestCase.java:46)
+</system-err></testcase><testcase classname="com.test.TestCase" name="F add clinic"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.addClinic(ApiMethods.java:175)
+com.test.TestCase.F_addClinic(TestCase.java:51)
+</system-err></testcase><testcase classname="com.test.TestCase" name="G clinic speciality"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.clinicSpeciality(ApiMethods.java:248)
+com.test.TestCase.G_clinicSpeciality(TestCase.java:56)
+</system-err></testcase><testcase classname="com.test.TestCase" name="H clinic schedule"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.clinicSchedule(ApiMethods.java:276)
+com.test.TestCase.H_clinicSchedule(TestCase.java:61)
+</system-err></testcase><testcase classname="com.test.TestCase" name="I add user"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.addUser(ApiMethods.java:285)
+com.test.TestCase.I_addUser(TestCase.java:66)
+</system-err></testcase><testcase classname="com.test.TestCase" name="J addstaff"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.addstaff(ApiMethods.java:313)
+com.test.TestCase.J_addstaff(TestCase.java:71)
+</system-err></testcase><testcase classname="com.test.TestCase" name="K add inventory"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addInventory(ApiMethods.java:360)
+com.test.TestCase.K_addInventory(TestCase.java:76)
+</system-err></testcase><testcase classname="com.test.TestCase" name="L add service code"><error message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</error><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addInventory(ApiMethods.java:360)
+com.methods.ApiMethods.addServiceCode(ApiMethods.java:378)
+com.test.TestCase.L_addServiceCode(TestCase.java:81)
+</system-err></testcase><testcase classname="com.test.TestCase" name="M add owner"/><testcase classname="com.test.TestCase" name="N add pet"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;401&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;401&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.methods.ApiMethods.addPet(ApiMethods.java:476)
+com.test.TestCase.N_addPet(TestCase.java:92)
+</system-err></testcase><testcase classname="com.test.TestCase" name="O add appointment"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.addAppointment(ApiMethods.java:493)
+com.test.TestCase.O_addAppointment(TestCase.java:97)
+</system-err></testcase><testcase classname="com.test.TestCase" name="P add event"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.addEvent(ApiMethods.java:519)
+com.test.TestCase.P_addEvent(TestCase.java:102)
+</system-err></testcase><testcase classname="com.test.TestCase" name="Q get event"><error type="java.lang.NullPointerException"/><system-err>null
+com.methods.ApiMethods.addEvent(ApiMethods.java:519)
+com.methods.ApiMethods.getEvent(ApiMethods.java:543)
+com.test.TestCase.Q_getEvent(TestCase.java:107)
+</system-err></testcase></testsuite>
